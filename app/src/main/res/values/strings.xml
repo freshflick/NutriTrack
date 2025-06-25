@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">NutriTrack</string>
+    <string name="title_activity_login_screen">LoginScreen</string>
+    <string name="title_activity_food_questionnaire">FoodQuestionnaire</string>
+    <string name="title_activity_dialog_box_screen">dialogBoxScreen</string>
+    <string name="title_activity_home_screen">HomeScreen</string>
+    <string name="title_activity_insights_screen">InsightsScreen</string>
+    <string name="title_activity_tester">tester</string>
+    <string name="title_activity_register_screen">RegisterScreen</string>
+    <string name="title_activity_setting_screen">SettingScreen</string>
+    <string name="title_activity_clinician_login">ClinicianLogin</string>
+    <string name="title_activity_clinician_dashboard">ClinicianDashboard</string>
+    <string name="title_activity_nutri_coach">NutriCoach</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_activity_greeting_view_model">GreetingViewModel</string>
+    <string name="title_activity_clinic_database">ClinicDatabase</string>
+    <string name="title_activity_patient">Patient</string>
+    <string name="title_activity_patient_dao">PatientDao</string>
+    <string name="title_activity_patient_repository">PatientRepository</string>
+    <string name="title_activity_patient_view_model">PatientViewModel</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_food_intake">FoodIntake</string>
+    <string name="title_activity_food_intake_dao">FoodIntakeDao</string>
+    <string name="title_activity_food_intake_repository">FoodIntakeRepository</string>
+    <string name="title_activity_food_intake_view_model">FoodIntakeViewModel</string>
+    <string name="title_activity_nutri_coach_tips">NutriCoachTips</string>
+    <string name="title_activity_nutri_coach_tips_dao">NutriCoachTipsDao</string>
+    <string name="title_activity_nutri_coach_tips_repository">NutriCoachTipsRepository</string>
+    <string name="title_activity_nutri_coach_tips_view_model">NutriCoachTipsViewModel</string>
+    <string name="title_activity_insight">Insight</string>
+    <string name="title_activity_insight_dao">InsightDao</string>
+    <string name="title_activity_clinic_repository">ClinicRepository</string>
+    <string name="title_activity_insight_view_model">InsightViewModel</string>
+    <string name="title_activity_home_screen_view_model">HomeScreenViewModel</string>
+    <string name="title_activity_auth_manager">AuthManager</string>
+    <string name="title_activity_fruity_vice_response">FruityViceResponse</string>
+    <string name="title_activity_fruity_vice_api">FruityViceAPI</string>
+    <string name="title_activity_main_view_model">MainActivityViewModel</string>
+    <string name="title_activity_register_screen_view_model">RegisterScreenViewModel</string>
+    <string name="title_activity_food_questionnaire_view_model">FoodQuestionnaireViewModel</string>
+    <string name="title_activity_setting_screen_view_model">SettingScreenViewModel</string>
+    <string name="title_activity_nutri_coach_view_model">NutriCoachViewModel</string>
+    <string name="title_activity_fruit">Fruit</string>
+    <string name="title_activity_retro_fit">RetroFit</string>
+    <string name="title_activity_register_and_login_screen_view_model_factory">
+        RegisterAndLoginScreenViewModelFactory
+    </string>
+    <string name="title_activity_fruit_model">FruitModel</string>
+    <string name="title_activity_nutri_coach_view_model_factory">NutriCoachViewModelFactory</string>
+    <string name="title_activity_ui_state">UiState</string>
+    <string name="title_activity_nutri_coach_gen_ai_view_model">NutriCoachGenAiViewModel</string>
+    <string name="title_activity_gen_ai_view_model_factory">GenAiViewModelFactory</string>
+    <string name="title_activity_register_and_login_repo">RegisterAndLoginRepo</string>
+    <string name="title_activity_data_store_utils">DataStoreUtils</string>
+    <string name="title_activity_data_store_repo">DataStoreRepo</string>
+</resources>

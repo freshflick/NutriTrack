@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/nutritrack_launcher_round"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/nutritrack_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.NutriTrack"
+        tools:targetApi="31">
+        <activity
+            android:name=".data.Repositories.DataStoreRepo"
+            android:exported="false"
+            android:label="@string/title_activity_data_store_repo"
+            android:theme="@style/Theme.NutriTrack" />
+        <activity
+            android:name=".data.DataStoreUtils"
+            android:exported="false"
+            android:label="@string/title_activity_data_store_utils"
+            android:theme="@style/Theme.NutriTrack" />
+        <activity
+            android:name=".data.Repositories.FoodIntakeRepo"
+            android:exported="false"
+            android:label="@string/title_activity_register_and_login_repo"
+            android:theme="@style/Theme.NutriTrack" />
+        <activity
+            android:name=".ViewModel.ViewModelFactory.GenAIViewModelFactory"
+            android:exported="false"
+            android:label="@string/title_activity_gen_ai_view_model_factory"
+            android:theme="@style/Theme.NutriTrack" />
+        <activity
+            android:name=".data.NutriCoachTip.NutriCoachTipsDao"
+            android:exported="false"
+            android:label="@string/title_activity_nutri_coach_tips_dao"
+            android:theme="@style/Theme.NutriTrack" />
+        <activity
+            android:name=".data.NutriCoachTip.NutriCoachGenAiViewModel"
+            android:exported="false"
+            android:label="@string/title_activity_nutri_coach_gen_ai_view_model"
+            android:theme="@style/Theme.NutriTrack" />
+        <activity
+            android:name=".data.NutriCoachTip.UiState"
+            android:exported="false"
+            android:label="@string/title_activity_ui_state"
+            android:theme="@style/Theme.NutriTrack" />
+        <activity
+            android:name=".ViewModel.ViewModelFactory.NutriCoachViewModelFactory"
+            android:exported="false"
+            android:label="@string/title_activity_nutri_coach_view_model_factory"
+            android:theme="@style/Theme.NutriTrack" />
+        <activity
+            android:name=".data.FruityVice.FruitModel"
+            android:exported="false"
+            android:label="@string/title_activity_fruit_model"
+            android:theme="@style/Theme.NutriTrack" />
+        <activity
+            android:name=".ViewModel.ViewModelFactory.RegisterAndLoginScreenViewModelFactory"
+            android:exported="false"
+            android:label="@string/title_activity_register_and_login_screen_view_model_factory"
+            android:theme="@style/Theme.NutriTrack" />
+        <activity
+            android:name=".data.FruityVice.RetroFit"
+            android:exported="false"
+            android:label="@string/title_activity_retro_fit"
+            android:theme="@style/Theme.NutriTrack" />
+        <activity
+            android:name=".data.FruityVice.Fruit"
+            android:exported="false"
+            android:label="@string/title_activity_fruit"
+            android:theme="@style/Theme.NutriTrack" />
+        <activity
+            android:name=".ViewModel.NutriCoachViewModel"
+            android:exported="false"
+            android:label="@string/title_activity_nutri_coach_view_model"
+            android:theme="@style/Theme.NutriTrack" />
+        <activity
+            android:name=".ViewModel.SettingScreenViewModel"
+            android:exported="false"
+            android:label="@string/title_activity_setting_screen_view_model"
+            android:theme="@style/Theme.NutriTrack" />
+        <activity
+            android:name=".ViewModel.HomeScreenViewModel"
+            android:exported="false"
+            android:label="@string/title_activity_home_screen_view_model"
+            android:theme="@style/Theme.NutriTrack" />
+        <activity
+            android:name=".ViewModel.InsightViewModel"
+            android:exported="false"
+            android:label="@string/title_activity_insight_view_model"
+            android:theme="@style/Theme.NutriTrack" />
+        <activity
+            android:name=".ViewModel.FoodQuestionnaireViewModel"
+            android:exported="false"
+            android:label="@string/title_activity_food_questionnaire_view_model"
+            android:theme="@style/Theme.NutriTrack" />
+        <activity
+            android:name=".ViewModel.RegisterAndLoginScreenViewModel"
+            android:exported="false"
+            android:label="@string/title_activity_register_screen_view_model"
+            android:theme="@style/Theme.NutriTrack" />
+        <activity
+            android:name=".ViewModel.MainActivityViewModel"
+            android:exported="false"
+            android:label="@string/title_activity_main_view_model"
+            android:theme="@style/Theme.NutriTrack" />
+        <activity
+            android:name=".data.FruityVice.FruityViceAPI"
+            android:exported="false"
+            android:label="@string/title_activity_fruity_vice_api"
+            android:theme="@style/Theme.NutriTrack" />
+        <activity
+            android:name=".data.FruityVice.FruityViceResponse"
+            android:exported="false"
+            android:label="@string/title_activity_fruity_vice_response"
+            android:theme="@style/Theme.NutriTrack" />
+        <activity
+            android:name=".AuthManager"
+            android:exported="false"
+            android:label="@string/title_activity_auth_manager"
+            android:theme="@style/Theme.NutriTrack" />
+        <activity
+            android:name=".data.FoodIntake.InsightViewModel"
+            android:exported="false"
+            android:label="@string/title_activity_insight_view_model"
+            android:theme="@style/Theme.NutriTrack" />
+        <activity
+            android:name=".data.ClinicRepository"
+            android:exported="false"
+            android:label="@string/title_activity_clinic_repository"
+            android:theme="@style/Theme.NutriTrack" />
+        <activity
+            android:name=".data.Insight.InsightDao"
+            android:exported="false"
+            android:label="@string/title_activity_insight_dao"
+            android:theme="@style/Theme.NutriTrack" />
+        <activity
+            android:name=".data.Insight.Insight"
+            android:exported="false"
+            android:label="@string/title_activity_insight"
+            android:theme="@style/Theme.NutriTrack" />
+        <activity
+            android:name=".data.NutriCoachTip.NutriCoachTipsViewModel"
+            android:exported="false"
+            android:label="@string/title_activity_nutri_coach_tips_view_model"
+            android:theme="@style/Theme.NutriTrack" />
+        <activity
+            android:name=".data.NutriCoachTip.NutriCoachTipsRepository"
+            android:exported="false"
+            android:label="@string/title_activity_nutri_coach_tips_repository"
+            android:theme="@style/Theme.NutriTrack" />
+        <activity
+            android:name=".data.NutriCoachTip.NutriCoachTipDao"
+            android:exported="false"
+            android:label="@string/title_activity_nutri_coach_tips_dao"
+            android:theme="@style/Theme.NutriTrack" />
+        <activity
+            android:name=".data.NutriCoachTip.NutriCoachTip"
+            android:exported="false"
+            android:label="@string/title_activity_nutri_coach_tips"
+            android:theme="@style/Theme.NutriTrack" />
+        <activity
+            android:name=".data.FoodIntake.FoodIntakeViewModel"
+            android:exported="false"
+            android:label="@string/title_activity_food_intake_view_model"
+            android:theme="@style/Theme.NutriTrack" />
+        <activity
+            android:name=".data.FoodIntake.FoodIntakeRepository"
+            android:exported="false"
+            android:label="@string/title_activity_food_intake_repository"
+            android:theme="@style/Theme.NutriTrack" />
+        <activity
+            android:name=".data.FoodIntake.FoodIntakeDao"
+            android:exported="false"
+            android:label="@string/title_activity_food_intake_dao"
+            android:theme="@style/Theme.NutriTrack" />
+        <activity
+            android:name=".data.FoodIntake.FoodIntake"
+            android:exported="false"
+            android:label="@string/title_activity_food_intake"
+            android:theme="@style/Theme.NutriTrack" />
+        <activity
+            android:name=".data.MainActivity"
+            android:exported="true"
+            android:label="@string/title_activity_main"
+            android:theme="@style/Theme.NutriTrack" />
+        <activity
+            android:name=".data.Patient.PatientViewModel"
+            android:exported="false"
+            android:label="@string/title_activity_patient_view_model"
+            android:theme="@style/Theme.NutriTrack" />
+        <activity
+            android:name=".data.PatientRepository"
+            android:exported="false"
+            android:label="@string/title_activity_patient_repository"
+            android:theme="@style/Theme.NutriTrack" />
+        <activity
+            android:name=".data.PatientDao"
+            android:exported="false"
+            android:label="@string/title_activity_patient_dao"
+            android:theme="@style/Theme.NutriTrack" />
+        <activity
+            android:name=".data.Patient"
+            android:exported="false"
+            android:label="@string/title_activity_patient"
+            android:theme="@style/Theme.NutriTrack" />
+        <activity
+            android:name=".data.ClinicDatabase"
+            android:exported="false"
+            android:label="@string/title_activity_clinic_database"
+            android:theme="@style/Theme.NutriTrack" />
+        <activity
+            android:name=".sample_codes.MainActivity2"
+            android:exported="true"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/Theme.NutriTrack" />
+        <activity
+            android:name=".NutriCoach"
+            android:exported="true"
+            android:label="@string/title_activity_nutri_coach"
+            android:theme="@style/Theme.NutriTrack" />
+        <activity
+            android:name=".ClinicianDashboard"
+            android:exported="true"
+            android:label="@string/title_activity_clinician_dashboard"
+            android:theme="@style/Theme.NutriTrack" />
+        <activity
+            android:name=".ClinicianLogin"
+            android:exported="true"
+            android:label="@string/title_activity_clinician_login"
+            android:theme="@style/Theme.NutriTrack" />
+        <activity
+            android:name=".SettingScreen"
+            android:exported="true"
+            android:label="@string/title_activity_setting_screen"
+            android:theme="@style/Theme.NutriTrack" />
+        <activity
+            android:name=".RegisterScreen"
+            android:exported="true"
+            android:label="@string/title_activity_register_screen"
+            android:theme="@style/Theme.NutriTrack" />
+        <activity
+            android:name=".InsightsScreen"
+            android:exported="true"
+            android:label="@string/title_activity_insights_screen"
+            android:theme="@style/Theme.NutriTrack" />
+        <activity
+            android:name=".HomeScreen"
+            android:exported="true"
+            android:label="@string/title_activity_home_screen"
+            android:theme="@style/Theme.NutriTrack" />
+        <activity
+            android:name=".dialogBoxScreen"
+            android:exported="false"
+            android:label="@string/title_activity_dialog_box_screen"
+            android:theme="@style/Theme.NutriTrack" />
+        <activity
+            android:name=".FoodQuestionnaire"
+            android:exported="true"
+            android:label="@string/title_activity_food_questionnaire"
+            android:theme="@style/Theme.NutriTrack" />
+        <activity
+            android:name=".LoginScreen"
+            android:exported="true"
+            android:label="@string/title_activity_login_screen"
+            android:theme="@style/Theme.NutriTrack" />
+        <activity
+            android:name=".MainActivityScreen"
+            android:exported="true"
+            android:theme="@style/Theme.NutriTrack" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.NutriTrack">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
