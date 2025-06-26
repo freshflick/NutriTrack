@@ -135,7 +135,7 @@ fun WelcomePage(modifier: Modifier = Modifier, loginViewModel: RegisterAndLoginS
             )
             Spacer(modifier = Modifier.height(20.dp))
             Text(
-                text = "NutriTrack",
+                text = "Vita",
                 fontSize = 43.sp,
                 fontWeight = FontWeight.Bold,
                 fontFamily = sfProFont
