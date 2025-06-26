@@ -29,7 +29,7 @@ NutriTrack helps individuals track what they eat, understand their nutritional q
 - 🌗 **Dark/Light Mode** for accessibility and eye comfort
 - 🔄 **Quick logout**, **post-registration login redirection**, and **privacy-aware questionnaire saving**
 - 🧼 **Modern UI design**: rounded corners, transitions, clean layouts
-- 📊 **Admin View** (hidden): advanced data analytics, AI-powered insight summaries
+- 📊 **Admin View**: advanced data analytics, AI-powered insight summaries
 
 ---
 
@@ -80,7 +80,7 @@ If the user's score is already optimal, a fun random image is shown via [https:/
 | Insights        | Category-wise breakdown and call-to-action for improvement    |
 | NutriCoach      | AI + API-driven fruit suggestions and motivational tips       |
 | Settings        | View user info, toggle theme, and logout                      |
-| Admin View      | Hidden screen for analytics, pattern recognition using AI     |
+| Admin View      | Overview screen for analytics, pattern recognition using AI   |
 
 ---
 
