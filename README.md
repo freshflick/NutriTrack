@@ -121,6 +121,113 @@ On first launch, user and score data is imported from a CSV file and inserted in
 
 ---
 
+## 📱 Screenshots preview
+
+<table>
+  <tr>
+    <td>
+
+<b>Welcome</b><br>
+Purpose: App introduction, disclaimer, and Monash Nutrition link.
+
+</td>
+    <td align="right">
+      <img width="180" alt="Welcome" src="https://github.com/user-attachments/assets/1241ffd3-38b2-4080-a6c7-321f452b62a3" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+
+<b>Login/Register</b><br>
+Purpose: Secure account claim and login via database.
+
+</td>
+    <td align="right">
+      <img width="180" alt="Login" src="https://github.com/user-attachments/assets/260232ec-62d0-40a3-8be3-242e9ef8bdcd" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+
+<b>Questionnaire</b><br>
+Purpose: Food categories, persona, and meal timing input.
+
+</td>
+    <td align="right">
+      <img width="180" alt="Questionnaire" src="https://github.com/user-attachments/assets/c5088963-e0c3-4c22-a360-35e958ca2e0f" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+
+<b>Home</b><br>
+Purpose: Personalized HEIFA score display.
+
+</td>
+    <td align="right">
+      <img width="180" alt="Home" src="https://github.com/user-attachments/assets/94446a61-bfdb-4e1c-a306-6bfad8811f68" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+
+<b>Insights</b><br>
+Purpose: Nutrient breakdown and improvement suggestions.
+
+</td>
+    <td align="right">
+      <img width="180" alt="Insights" src="https://github.com/user-attachments/assets/f114d49d-7c7b-43a8-8922-bcb49adae219" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+
+<b>NutriCoach</b><br>
+Purpose: Show fruit suggestions and AI tips when fruit intake is low.
+
+</td>
+    <td align="right">
+      <img width="180" alt="NutriCoach" src="https://github.com/user-attachments/assets/89846ba5-7dc6-42f9-a705-8f4239cf9fc9" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+
+<b>NutriCoach (AI)</b><br>
+Purpose: GenAI tips based on user data and nutrition score.
+
+</td>
+    <td align="right">
+      <img width="180" alt="NutriCoach AI" src="https://github.com/user-attachments/assets/9042e515-27c2-47b7-ade9-e2df9e43c25a" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+
+<b>Settings</b><br>
+Purpose: Theme toggle, user info, and logout.
+
+</td>
+    <td align="right">
+      <img width="180" alt="Settings" src="https://github.com/user-attachments/assets/113072d0-a527-4f3a-9fda-1682cdde16b3" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+
+<b>Admin View</b><br>
+Purpose: Average scores + AI-based pattern recognition (secured access).
+
+</td>
+    <td align="right">
+      <img width="180" alt="Admin View" src="https://github.com/user-attachments/assets/256dcbc0-2057-4b30-8b25-04b0b66ce323" />
+    </td>
+  </tr>
+</table>
+
+
+---
+
 ## 🧪 How to Run
 
 1. Clone the repo
