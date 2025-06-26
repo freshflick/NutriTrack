@@ -1,6 +1,5 @@
 package com.fit2081.Nadeem_Shayan_34075836.nutritrack
 
-import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -82,7 +81,7 @@ class MainActivity : ComponentActivity() {
         settingScreenViewModel = ViewModelProvider(this, settingFactory)[SettingScreenViewModel::class.java]
         registerAndLoginScreenViewModel = ViewModelProvider(this, registerFactory)[RegisterAndLoginScreenViewModel::class.java]
 
-        val sharedPreferences = getSharedPreferences("app_prefs", Context.MODE_PRIVATE)
+        val sharedPreferences = getSharedPreferences("app_prefs", MODE_PRIVATE)
         val isInitialized = sharedPreferences.getBoolean("isInitialized", false)
 
         if (!isInitialized) {
@@ -135,7 +134,7 @@ fun WelcomePage(modifier: Modifier = Modifier, loginViewModel: RegisterAndLoginS
             )
             Spacer(modifier = Modifier.height(20.dp))
             Text(
-                text = "NutriTrack",
+                text = "Vita",
                 fontSize = 43.sp,
                 fontWeight = FontWeight.Bold,
                 fontFamily = sfProFont
